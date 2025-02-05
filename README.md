@@ -12,3 +12,4 @@ Build a blockchain-based *anonymous social media platform* where users can post 
 - React + Web3.js (Frontend)  
 
 📌 *Current Progress:* 
+Feb - 05 -> Today I completed 8 lessons in block chain basics from cyfrin :)
