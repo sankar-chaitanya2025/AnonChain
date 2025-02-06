@@ -13,4 +13,4 @@ Build a blockchain-based *anonymous social media platform* where users can post 
 
 📌 *Current Progress:* 
 Feb - 05 -> Today I completed 8 lessons in block chain basics from cyfrin :), Target is to complete remaining all lessons tommorow and wrap up block chain basics !
-Feb - 06 -> Gone through a meeting with DSW on boycott fc today, can't get the work done. Will complete BlockChain Basics tommorow. 
+Feb - 06 -> Gone through a meeting with DSW on boycott fc today, can't get the work done. Will complete BlockChain Basics tommorow. Hope, Tanu will stay safe and complete her studies.
