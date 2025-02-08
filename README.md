@@ -94,7 +94,5 @@ Let’s say customers are ordering pizzas:
 
 ---
 
-## ✨ Final Thoughts  
-🚀 My journey so far has been **amazing**! 😍 I'll spend a day editing all README files so I can use this as my **learning journal**. 📖 
-
-💡 **Stay tuned for more updates on AnonChain!** 🔥
+Feb - 08 => Today I have created a wallet on Meta Mask and did my first transaction using sepolia test net which i got some from tenderly.co
+one step closer to build AnonChain.
