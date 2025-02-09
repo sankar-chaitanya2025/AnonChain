@@ -96,3 +96,130 @@ Let’s say customers are ordering pizzas:
 
 Feb - 08 => Today I have created a wallet on Meta Mask and did my first transaction using sepolia test net which i got some from tenderly.co
 one step closer to build AnonChain.
+
+---
+Feb - 09 => **How does a block chain actually work ?**
+
+## **1. The Blockchain as a Tamper-Proof Notebook 📖**  
+Imagine a **notebook** where people write financial transactions. Each page in the notebook is a **block**, and every page is linked to the previous one, forming a **chain** of pages.  
+
+**Key Takeaways:**  
+- **Block** = A page in the notebook  
+- **Blockchain** = The entire notebook  
+- **Immutable** = If someone tries to erase a page, the ink is permanent!  
+
+---
+
+## **2. How Transactions Work – Sending Money Like Passing Notes 🏦**  
+Imagine a classroom where students pass notes (money transfers) to each other. The teacher (a network of computers) verifies if each note is signed properly.  
+
+### **Steps:**  
+1. **You Write a Note (Transaction Creation) 📜**  
+   - You write: "Alice pays Bob $10" and sign it.  
+   - Your signature (private key) ensures only you can authorize the note.  
+
+2. **Teacher Checks the Note (Transaction Verification) ✅**  
+   - The teacher (nodes) checks your handwriting (public key verification).  
+   - They confirm you actually have $10 before approving.  
+
+3. **Note Goes on the Board (Transaction is Recorded) 📌**  
+   - If the note is valid, it gets pinned to a classroom notice board (blockchain).  
+   - Once posted, it **can’t be erased or changed**—everyone sees it forever!  
+
+---
+
+## **3. Mining – Solving a Puzzle to Earn Rewards 🏆**  
+Think of mining as a **school quiz competition** where students (miners) race to solve a tough math problem. Whoever solves it first gets to **write the next page (block) in the notebook** and wins a **prize (newly minted coins + transaction fees).**  
+
+### **Steps:**  
+1. **The Question (Proof-of-Work)**  
+   - The teacher gives a super difficult math puzzle.  
+   - All students (miners) try random answers until someone gets it right.  
+
+2. **First Correct Answer Wins (Nonce Solved) 🥇**  
+   - The first student (miner) to solve it gets to write the next page (block).  
+   - They also earn a reward (Bitcoin or Ethereum rewards).  
+
+3. **Other Students Check the Answer (Block Validation) 👀**  
+   - The class checks if the answer is correct.  
+   - If valid, the page (block) is added permanently.  
+
+> **Why is it Hard?**  
+> It prevents cheating—if anyone tries to write false transactions, they’d need to solve the puzzle before others, which is nearly impossible!  
+
+---
+
+## **4. Public-Key Cryptography – Digital Lock & Key 🔐**  
+Imagine you have a special mailbox 🏤 where people can send letters (money), but only **you** have the key to open it.  
+
+- **Public Key** = The mailbox address (anyone can see it and send you funds).  
+- **Private Key** = Your unique key (only you can use it to unlock and spend money).  
+
+> If someone steals your **private key**, they can take all your money—just like losing your real-life ATM PIN! 😨  
+
+---
+
+## **5. Hashing – The Fingerprint of Data 🆔**  
+Imagine you take a **selfie** and apply a filter that creates a unique **fingerprint-like number** (hash). Even a tiny change in the image (data) creates a completely different fingerprint!  
+
+- **Hash (SHA-256)** ensures every block has a **unique fingerprint**.  
+- If someone changes anything in a block, its fingerprint changes, breaking the chain!  
+
+---
+
+## **6. Merkle Tree – Organizing Transactions Like a Tournament Bracket 🌳**  
+Imagine a **tournament bracket** where players (transactions) compete, and their winners move up until there's a final champion (Merkle Root).  
+
+- The **Merkle Root** summarizes all transactions in a block, making it easy to verify whether a transaction exists without checking the whole block!  
+
+---
+
+## **7. Consensus – The Classroom Voting System 🗳️**  
+Imagine a class votes to decide who the best student is.  
+- If more than **51%** of students agree (Proof-of-Work/Proof-of-Stake), then the decision is final.  
+- If a **cheating group** tries to manipulate votes, they’d need control of 51% of the class—very hard in a large group!  
+
+---
+
+## **8. Forks – Choosing a Different Path 🚦**  
+Imagine a group of friends **arguing about where to go**:  
+- **Soft Fork**: They all agree to change the plan slightly but still stick together.  
+- **Hard Fork**: They **split into two groups**, following separate paths (like Bitcoin and Bitcoin Cash).  
+
+---
+
+## **9. Layer 2 – Building a Fast Lane on a Busy Highway 🚗💨**  
+Imagine a **super busy highway** where every car (transaction) must wait in a traffic jam (slow transactions).  
+
+- **Layer 2 solutions** like the **Lightning Network** or **Rollups** build a **fast lane**, processing small transactions off the main highway and settling them later!  
+
+---
+
+## **10. 51% Attack – A Classroom Takeover 😈**  
+Imagine in a school election, if a **single group of students** controls 51% of the votes, they can make **fake votes and manipulate the system**.  
+
+> In blockchain, if someone gets 51% of mining power, they can **double-spend money** or reverse transactions!  
+
+---
+
+## **Final Analogy: Blockchain as a Tamper-Proof History Book 📚**  
+Think of blockchain as a **history book** where:  
+- **Every page (block) is linked** to the previous one.  
+- **Everyone has a copy** (decentralization).  
+- **Once written, no page can be changed** (immutability).  
+
+If someone tries to edit a past page, all copies will **immediately detect the fraud!** 🚀  
+
+---
+
+### **TL;DR: Blockchain Simplified**
+- **Like a permanent notebook**: Every page (block) is linked to the previous.  
+- **Like passing notes in class**: Transactions are verified and recorded.  
+- **Like a quiz competition**: Miners solve puzzles to add pages.  
+- **Like a mailbox with a lock**: Public key = Address, Private key = Unlocks funds.  
+- **Like a voting system**: 51% agreement is needed to confirm blocks.  
+- **Like a busy highway**: Layer 2 creates fast lanes for quick transactions.  
+
+---
+
+This is how block chain actually works under hood.
